@@ -1,3 +1,5 @@
+This must be placed inside of the menu_config.json file within the config folder.
+
 Any place that has "usable" beside it means that those are the only usable arguments in the quotation marks beside it. The capitalized
 is to be replaced with the values you want. If it has quotation marks, then it is a String values, a.k.a text, and if it has no
 quotation marks, then it is an Integer value, a.k.a, a number.
