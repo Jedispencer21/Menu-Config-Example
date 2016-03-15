@@ -1,0 +1,72 @@
+Any place that has "usable" beside it means that those are the only usable arguments in the quotation marks beside it. The capitalized
+is to be replaced with the values you want. If it has quotation marks, then it is a String values, a.k.a text, and if it has no
+quotation marks, then it is an Integer value, a.k.a, a number.
+
+{
+	"buttons": [
+		{
+			"text": "DISPLAY",
+			"color": [ DISABLED, ENABLED, HOVERED ],
+			"sizes": [ XSIZE, YSIZE ],
+			"position": {
+				"x": "", // usable: left, center, right, far_right
+				"y": "", // usable: top, center, bottom
+				"offsets": {
+					"xOff": X,
+					"yOff": Y
+				}
+			},
+			"actionPerformed": {
+				"displayGui": "", // usable: guiSingleplayer, guiMultiplayer, guiRealms, guiMods, guiOptions, guiLanguage
+				"doAction": "" // usable: quitGame
+			},
+			"texture": {
+				"location": "",
+				"uv": [ U, V, WIDTH, HEIGHT ]
+			}
+		}
+	],
+	"logo": {
+		"texture": "LOCATION",
+		"type": "", // usable: panning, normal.
+		"logoWidth": WIDTH,
+		"uv": [
+			{
+				"x": "", // usable: left, center, right, far_right
+				"y": "", // usable: top, center, bottom
+				"xOff": X,
+				"yOff": Y,
+				"coords": [ U, V, WIDTH, HEIGHT ]
+			}
+		]
+	},
+	"background": {
+		"type": "", // usable: panoramic, flat
+		"textures": [ // For Type Panoramic
+			"textures/gui/title/background/panorama_0",
+			"textures/gui/title/background/panorama_1",
+			"textures/gui/title/background/panorama_2",
+			"textures/gui/title/background/panorama_3",
+			"textures/gui/title/background/panorama_4",
+			"textures/gui/title/background/panorama_5"
+		]
+		"textures": [ // For Type Flat
+			"textures/gui/options_background"
+		]
+	},
+	"texts": [
+		{
+			"display": "", // usable: MCVERSION, COPYRIGHT, FORGEBRANDINGS, SPLASH, FREEMEM, ALLOCATEDMEM
+			"color": COLOR,
+			"shadow": , // usable: true, false
+			"position": {
+				"x": "", // usable: left, center, right, far_right
+				"y": "", // usable: top, center, bottom
+				"offsets": {
+					"xOff": X,
+					"yOff": Y
+				}
+			}
+		}
+	]
+}
